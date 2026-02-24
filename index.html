@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>PhishGuard AI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <section class="hero">
+    <span class="badge">AI-Powered URL Scanner</span>
+    <h1>Is that link <span>safe?</span></h1>
+    <p>Paste any URL and get an instant AI-powered phishing risk analysis.</p>
+  </section>
+
+  <section class="scanner">
+    <h2>🔍 PhishGuard Scanner</h2>
+    <input type="text" id="url" placeholder="Paste URL here">
+    <button onclick="analyzeURL()">Analyze</button>
+    <button onclick="downloadReport()">Download AI Safety Report</button>
+    <div id="output"></div>
+  </section>
+  <!-- jsPDF library -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
+<!-- Your script -->
+<script src="script.js"></script>
+</body>
+</html>
+  
