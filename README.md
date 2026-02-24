@@ -1,5 +1,5 @@
 
-PhishGuard AI – URL Phishing Detection System
+SecureUrl-Analyzer – URL Phishing Detection System
 
 Type: AI-based (Rule-based Intelligence)
 
